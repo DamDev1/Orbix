@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Metal+Mania&display=swap");
+
+.get-started {
+    padding: 5%;
+    text-align: center;
+    background: rgba(250, 250, 252, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    .container {
+        h2{
+            font-family: "Metal Mania", sans-serif;
+            font-size: 50px;
+            font-weight: 400;
+        }
+        .btn{
+            margin-top: 2rem;
+            
+            button {
+                padding: 20px 40px;
+                font-size: 1rem;
+                font-weight: bold;
+                font-family: "Inter", sans-serif;
+                border-radius: 20px;
+                background:#FF6E2B;
+                color: white;
+                cursor: pointer;
+                transition: 0.5s;
+                border: 0;
+            }
+        }
+    }
+}

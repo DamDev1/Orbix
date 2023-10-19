@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Metal+Mania&display=swap");
+
+#hero-section {
+    background: rgba(20, 20, 25, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        padding-top: 5rem;
+        .hero-content {
+            h1 {
+                font-family: "Metal Mania", sans-serif;
+                color: white;
+                font-size: 75px;
+                font-weight: 400;
+                text-align: center;
+            }
+            p {
+                font-family: "Inter", sans-serif;
+                color: white;
+                text-align: center;
+                margin-top: 1rem;
+                font-size: 20px;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .rent-nft {
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    padding: 20px 40px;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    font-family: "Inter", sans-serif;
+                    border-radius: 20px;
+                    background:#FF6E2B;
+                    color: white;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    border: 0;
+                }
+            }
+        }
+
+        .hero-img{
+            margin-top: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Metal+Mania&display=swap');
+header{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(37, 37, 48, 0.904);
+
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .menu-list-container{
+            display: flex;
+            gap: 30px;
+
+            a{
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        .connect-wallet{
+            button{
+                padding: 20px 40px 20px 40px;
+                font-size: 1rem;
+                font-weight: bold;
+                font-family: 'Inter', sans-serif;
+                border-radius: 20px;
+                border: 2px solid 
+                #FF6E2B;
+                background: transparent;
+                color: #FF6E2B;
+                cursor: pointer;
+                transition: 0.5s;
+
+
+                &:hover{
+                    background: #FF6E2B;
+                    color: white;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+#footer{
+    padding: 3rem 8%;
+    background: rgba(20, 20, 25, 1);
+
+    .container{
+        display: flex; 
+        align-items: center;
+        .col-1{
+            width: 50%;
+            p{
+                margin-top: 1rem;
+                color: white;
+                font-family: "Inter", sans-serif;
+                width: 50%;
+            }
+        }
+
+        .col-2{
+            ul{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 20px;
+                
+                a{
+                    font-family: "Inter", sans-serif;
+                    text-decoration: none;
+                    color: white;
+                };
+            }
+        }
+
+        .col-3{
+            margin-left: 50px;
+            display: flex;
+            h5{
+                font-family: "Inter", sans-serif;
+                color: white;
+                font-size: 15px;
+            }
+
+            .socal{
+                margin-left: 20px;
+                display: flex;
+                gap: 20px;
+                color: white;
+            }
+        }
+    }
+
+}
